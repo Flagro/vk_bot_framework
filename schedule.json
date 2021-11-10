@@ -1,0 +1,39 @@
+{
+    "anekdot": {
+        "time": [
+            "1:00PM",
+            "8:21PM"
+        ],
+        "chat_id": 3,
+        "text": "!anekdot",
+        "type": "daily"
+    },
+    "twice": {
+        "time": [
+            "3:15PM"
+        ],
+        "chat_id": 3,
+        "text": "!twicebot random",
+        "type": "daily"
+    },
+    "weather": {
+        "time": [
+            "8:21AM",
+            "10:01AM",
+            "1:01PM",
+            "5:01PM",
+            "10:01PM"
+        ],
+        "chat_id": 3,
+        "text": "!weather щербинка, полевской, бишкек",
+        "type": "daily"
+    },
+    "reminder": {
+        "time": [
+            "3:01PM"
+        ],
+        "chat_id": 3,
+        "text": "!say @id244448840 (Сережа Дубинец) хороший человек xqcL",
+        "type": "daily"
+    }
+}

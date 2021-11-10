@@ -1,0 +1,66 @@
+{
+    "no_trigger_module": "wordsbot",
+    "bots_source_py_module_prefix": "bots_source.",
+    "vk_bots": {
+        "wordsbot": {
+            "python_module": "wordsbot",
+            "class_name": "WordsBot",
+            "trigger_words": ["@@@"],
+            "bot_files": ["./bots_data/words.json"]
+        },
+        "simplistbot": {
+            "python_module": "simplistbot",
+            "class_name": "SimpListBot",
+            "trigger_words": ["!simpbot", "!simplistbot"],
+            "bot_files": ["./bots_data/simplist.json"]
+        },
+        "stalkerbot": {
+            "python_module": "stalkerbot",
+            "class_name": "StalkerBot",
+            "trigger_words": ["!stalkerbot", "!anekdot", "!анекдот"],
+            "bot_files": ["./bots_data/stalkerjokes.json"]
+        },
+        "twicebot": {
+            "python_module": "twicebot",
+            "class_name": "TwiceBot",
+            "trigger_words": ["!twicebot"],
+            "bot_files": ["./bots_data/twicelinks.json"]
+        },
+        "cuntbot": {
+            "python_module": "cuntbot",
+            "class_name": "CuntBot",
+            "trigger_words": ["!cuntbot"],
+            "bot_files": []
+        },
+        "saybot": {
+            "python_module": "saybot",
+            "class_name": "SayBot",
+            "trigger_words": ["!say", "!скажи"],
+            "bot_files": []
+        },
+        "weatherbot": {
+            "python_module": "weatherbot",
+            "class_name": "WeatherBot",
+            "trigger_words": ["!weather", "!погода"],
+            "bot_files": ["./bots_data/weatherbot.json"]
+        },
+        "todolistbot": {
+            "python_module": "todolistbot",
+            "class_name": "ToDoListBot",
+            "trigger_words": ["!wordbot"],
+            "bot_files": ["./bots_data/todolist.json"]
+        },
+        "catsbot": {
+            "python_module": "catsbot",
+            "class_name": "CatsBot",
+            "trigger_words": ["!cats", "!киска"],
+            "bot_files": ["./bots_data/catpicslist.json"]
+        },
+        "sanyabot": {
+            "python_module": "sanyabot",
+            "class_name": "SanyaBot",
+            "trigger_words": ["!sanya", "!саня"],
+            "bot_files": []
+        }
+    }
+}
